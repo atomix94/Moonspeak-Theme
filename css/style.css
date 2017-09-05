@@ -539,6 +539,9 @@ color:#4eaeff;
 {
     display:flex;
     height:100%;
+    margin:0;
+    padding:0;
+    width:90%;
     
     
     
@@ -769,7 +772,7 @@ z-index:1000000;
   top:15vh;
     background-color:white;
     box-sizing: border-box;
-        height:inherit;
+        
     }
    
 ul li
@@ -872,7 +875,7 @@ z-index:1000000;
   top:15vh;
     background-color:white;
     box-sizing: border-box;
-        height:inherit;
+        
     }
    
 ul li
@@ -1007,7 +1010,7 @@ z-index:1000000;
   top:15vh;
     background-color:white;
     box-sizing: border-box;
-        height:inherit;
+       
     }
    
 ul li
@@ -1153,7 +1156,7 @@ z-index:1000000;
   top:15vh;
     background-color:white;
     box-sizing: border-box;
-        height:inherit;
+       
     }
    
 ul li
@@ -1394,14 +1397,13 @@ margin:0;
     .footer-info
     {
         justify-content: center;
-        letter-spacing: inherit;
-        line-height: 20%;
+       margin-left:0;
         padding-top:1%;
     }
     .footer-info > p
     {
         font-size:0.5rem;
-          line-height: 150%;
+          line-height: 125%;
     }
     
     .footer-info >h4
